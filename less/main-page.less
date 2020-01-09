@@ -1,0 +1,113 @@
+@dark-red: #8c4843;
+@forest-green: #447746;
+@sky-blue: #8ACDEA;
+@sand-yellow: #BCBD8B;
+@burnt-sienna: #9E643C;
+@offwhite: #fefcf8;
+.button(){
+    margin: 10%;
+    padding: 3% 10%;
+    background-color: @dark-red;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Kulim+Park&display=swap');
+
+
+
+body {
+    display: flex;
+    background-image: url("/images/sauti.png");
+    width: 100%;
+    background-size: cover;
+    justify-content: center;
+    flex-direction: column;
+}
+.nav {
+    ul {
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        font-size: 1.6rem;
+        font-family: 'Kulim Park', sans-serif;
+        background-color: @offwhite;
+        color: @dark-red;
+        list-style-type: none;
+        margin-left: 20%;
+        margin-right: 20%;
+        justify-content: space-evenly;
+    }
+}
+.header {
+    background-color: @dark-red;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    h2 {
+        display: flex;
+        color: @offwhite;
+        justify-content: center;
+        font-family: 'Kulim Park', sans-serif;
+        font-size: 1.8rem;
+    }
+}
+    .buttons {
+        display: flex;
+        width: 60%;
+        margin: 0 auto;
+        font-size: 1.6rem;
+        color: @offwhite;
+        font-family: 'Kulim Park', sans-serif;
+
+        .register {
+            .button;
+            }
+        .signin {
+                .button;
+            }
+        }
+    .about {
+        h3 {
+            background-color: @dark-red;
+            font-family: 'Kulim Park', sans-serif;
+            width: 40%;
+            margin: 0 auto;
+            padding: 2%;
+            color: @sand-yellow;
+            font-size: 2rem;
+            text-align: center;
+        }
+        p {
+            display: flex;
+            margin: 0 auto;
+            width: 40%;
+            padding: 2%;
+            background-color: @offwhite;
+            color: @dark-red;
+            font-family: 'Kulim Park', sans-serif;
+            font-size: 1.2rem;
+        }
+    }
+
+@media (max-width: 500px) {
+    body {
+        margin: 0;
+    }
+    .container {
+        margin: 0;
+    }
+    .header {
+        width: 100%;
+        .tagline {
+            display: none;
+        }
+    }
+}

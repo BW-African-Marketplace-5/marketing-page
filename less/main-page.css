@@ -1,0 +1,101 @@
+@font-face {
+  font-family: 'Kulim Park';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Kulim Park Regular'), local('KulimPark-Regular'), url(https://fonts.gstatic.com/s/kulimpark/v1/fdN79secq3hflz1Uu3IwhFks4Q.ttf) format('truetype');
+}
+body {
+  display: flex;
+  background-image: url("/images/sauti.png");
+  width: 100%;
+  background-size: cover;
+  justify-content: center;
+  flex-direction: column;
+}
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  font-family: 'Kulim Park', sans-serif;
+  background-color: #fefcf8;
+  color: #8c4843;
+  list-style-type: none;
+  margin-left: 20%;
+  margin-right: 20%;
+  justify-content: space-evenly;
+}
+.header {
+  background-color: #8c4843;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.header .logo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.header h2 {
+  display: flex;
+  color: #fefcf8;
+  justify-content: center;
+  font-family: 'Kulim Park', sans-serif;
+  font-size: 1.8rem;
+}
+.buttons {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  color: #fefcf8;
+  font-family: 'Kulim Park', sans-serif;
+}
+.buttons .register {
+  margin: 10%;
+  padding: 3% 10%;
+  background-color: #8c4843;
+}
+.buttons .signin {
+  margin: 10%;
+  padding: 3% 10%;
+  background-color: #8c4843;
+}
+.about h3 {
+  background-color: #8c4843;
+  font-family: 'Kulim Park', sans-serif;
+  width: 40%;
+  margin: 0 auto;
+  padding: 2%;
+  color: #BCBD8B;
+  font-size: 2rem;
+  text-align: center;
+}
+.about p {
+  display: flex;
+  margin: 0 auto;
+  width: 40%;
+  padding: 2%;
+  background-color: #fefcf8;
+  color: #8c4843;
+  font-family: 'Kulim Park', sans-serif;
+  font-size: 1.2rem;
+}
+@media (max-width: 500px) {
+  body {
+    margin: 0;
+  }
+  .container {
+    margin: 0;
+  }
+  .header {
+    width: 100%;
+  }
+  .header .tagline {
+    display: none;
+  }
+}
