@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'Kulim Park';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Kulim Park Regular'), local('KulimPark-Regular'), url(https://fonts.gstatic.com/s/kulimpark/v1/fdN79secq3hflz1Uu3IwhFks4Q.ttf) format('truetype');
+}
+.names {
+  padding: 3%;
+  font-size: 1.2rem;
+  background-color: #8c4843;
+  color: #BCBD8B;
+}
+body {
+  background-image: url("/images/bgimage.png");
+}
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  font-family: 'Kulim Park', sans-serif;
+  background-color: #fefcf8;
+  color: #8c4843;
+  list-style-type: none;
+  margin-left: 20%;
+  margin-right: 20%;
+  justify-content: space-evenly;
+}
+.header h1 {
+  background-color: #8c4843;
+  color: #BCBD8B;
+  font-size: 3em;
+  padding: 2%;
+  margin: 0 auto;
+  text-align: center;
+  width: 30%;
+  font-family: 'Kulim Park', sans-serif;
+}
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Kulim Park', sans-serif;
+}
+.about h2 {
+  padding: 3%;
+  font-size: 1.2rem;
+  background-color: #8c4843;
+  color: #BCBD8B;
+}
+.about p {
+  padding: 3%;
+  font-size: 1.2em;
+  background-color: #8c4843;
+  color: #BCBD8B;
+}
+.about .Wes {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  margin: 0.5%;
+  text-align: center;
+}
+.about .Zoe {
+  width: 15%;
+  flex-direction: column;
+  margin: 0.5%;
+  text-align: center;
+}
+.about .Jessica {
+  width: 15%;
+  flex-direction: column;
+  margin: 0.5%;
+  text-align: center;
+}
+.about .Alexis {
+  display: flex;
+  width: 15%;
+  flex-direction: column;
+  margin: 0.5%;
+  text-align: center;
+}
+.about .Robbie {
+  display: flex;
+  width: 15%;
+  flex-direction: column;
+  margin: 0.5%;
+  text-align: center;
+}
+@media screen and (max-width: 500px) {
+  body {
+    display: flex;
+    flex-direction: column !important;
+  }
+}

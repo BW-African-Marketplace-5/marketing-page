@@ -1,0 +1,92 @@
+body {
+  background-color: #BCBD8B;
+  background-image: url("/images/bgimage.png");
+}
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  font-family: 'Kulim Park', sans-serif;
+  background-color: #fefcf8;
+  color: #8c4843;
+  list-style-type: none;
+  margin-left: 20%;
+  margin-right: 20%;
+  justify-content: space-evenly;
+}
+.header h1 {
+  background-color: #8c4843;
+  color: #BCBD8B;
+  font-size: 3em;
+  padding: 2%;
+  margin: 0 auto;
+  text-align: center;
+  width: 30%;
+  font-family: 'Kulim Park', sans-serif;
+}
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Kulim Park', sans-serif;
+}
+.about h1 {
+  background-color: #8c4843;
+  font-family: 'Kulim Park', sans-serif;
+  width: 40%;
+  margin: 0 auto;
+  padding: 2%;
+  color: #BCBD8B;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.about h2 {
+  padding: 3%;
+  font-size: 1.4rem;
+  background-color: #8c4843;
+  color: #BCBD8B;
+}
+
+.about p {
+    padding: 3%;
+    font-size: 1.2rem;
+    background-color: #8c4843;
+    color: #BCBD8B;
+  }
+.about .Wes {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  margin: .5%;
+  text-align: center;
+}
+.about .Zoe {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  margin: .5%;
+  text-align: center;
+}
+.about .Jessica {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  margin: .5%;
+  text-align: center;
+}
+.about .Alexis {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  margin: .5%;
+  text-align: center;
+}
+.about .Robbie {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  margin: .5%;
+  text-align: center;
+}

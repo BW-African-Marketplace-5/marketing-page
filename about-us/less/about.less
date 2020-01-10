@@ -1,0 +1,99 @@
+@dark-red: #8c4843;
+@sand-yellow: #BCBD8B;
+@offwhite: #fefcf8;
+@import url('https://fonts.googleapis.com/css?family=Kulim+Park&display=swap');
+.names {
+    padding: 3%;
+    font-size: 1.2rem;
+    background-color: #8c4843;
+    color: #BCBD8B;
+}
+
+body {
+    background-image: url("/images/bgimage.png")
+}
+.nav {
+    ul {
+       display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        font-size: 1.6rem;
+        font-family: 'Kulim Park', sans-serif;
+        background-color: @offwhite;
+        color: @dark-red;
+        list-style-type: none;
+        margin-left: 20%;
+        margin-right: 20%;
+        justify-content: space-evenly;
+    }
+}
+
+.header {
+    h1 {
+        background-color: @dark-red;
+        color: @sand-yellow;
+        font-size: 3em;
+        padding: 2%;
+        margin: 0 auto;
+        text-align: center;
+        width: 30%;
+        font-family: 'Kulim Park', sans-serif;
+    }
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Kulim Park', sans-serif;
+  h2 {
+    .names;
+    }
+  p {
+    padding: 3%;
+    font-size: 1.2em;
+    background-color: @dark-red;
+    color: @sand-yellow;
+  }
+        .Wes {
+        display: flex;
+        flex-direction: column;
+        width: 15%;
+        margin: .5%;
+        text-align: center;
+        }
+    .Zoe {
+        width: 15%;
+        flex-direction: column;
+        margin: .5%;
+      text-align: center;
+    }
+    .Jessica {
+        width: 15%;
+        flex-direction: column;
+        margin: .5%;
+        text-align: center;
+    }
+    .Alexis {
+        display: flex;
+        width: 15%;
+        flex-direction: column;
+        margin: .5%;
+        text-align: center;
+    }
+    .Robbie {
+        display: flex;
+        width: 15%;
+        flex-direction: column;
+        margin: .5%;
+        text-align: center;
+    }
+    }
+
+    @media screen and (max-width: 500px) {
+        body {
+            display: flex;
+            flex-direction: column !important;
+            width: 400%;
+        }
+    }
