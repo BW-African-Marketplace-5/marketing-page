@@ -92,5 +92,6 @@ body {
   body {
     display: flex;
     flex-direction: column !important;
+    width: 400%;
   }
 }
